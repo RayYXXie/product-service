@@ -22,8 +22,8 @@ public class BookStoreController {
         return bookStoreService.findBookStore();
     }
 
-    @RequestMapping("findAll")
-    public String findAll(){
+    @RequestMapping("findAll")    // 这个findAll应该只是restful的名称，没什么特别
+    public String findAll(){     // 这个findAll是不是要和SerivceFeign的方法一致？试试换成aaa, 看可不可以
         return serviceFeign.findAll();
     }
 
