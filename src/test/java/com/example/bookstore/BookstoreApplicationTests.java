@@ -8,6 +8,7 @@ class BookstoreApplicationTests {
 
     @Test
     void contextLoads() {
+        int i=0;
     }
 
 }
